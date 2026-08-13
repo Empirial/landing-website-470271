@@ -36,7 +36,7 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href=#about
+                    href="#about"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     About
@@ -44,7 +44,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <a
-                    href=#contact
+                    href="#contact"
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
                     Contact
