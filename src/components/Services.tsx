@@ -3,16 +3,16 @@ import { useState } from "react";
 export default function Services() {
   const services = [
     {
-      title: "",
-      description: "",
+      title: "Custom Website Design",
+      description: "We craft a unique, mobile-responsive website tailored to your brand and business goals. From layout and color to copy and calls-to-action, every element is designed to make a strong first impression and convert visitors into customers.",
     },
     {
-      title: "",
-      description: "",
+      title: "Search Engine Optimization (SEO)",
+      description: "We optimize your site's structure, content, and technical performance to rank higher on Google. This drives more organic traffic, increases visibility among your target audience, and delivers long-term, cost-effective growth.",
     },
     {
-      title: "",
-      description: "",
+      title: "Ongoing Maintenance & Support",
+      description: "We handle updates, security patches, backups, and performance monitoring so your website stays fast, secure, and glitch-free. You get peace of mind and more time to focus on running your business, while we keep your digital presence in top shape.",
     },
   ];
 
@@ -23,7 +23,7 @@ export default function Services() {
     <section className="bg-background py-16 sm:py-20 lg:py-28">
       <div className="mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         <h2 className="text-center text-3xl font-bold tracking-tight text-foreground sm:text-4xl lg:text-5xl">
-          
+          What We Offer
         </h2>
 
         <div

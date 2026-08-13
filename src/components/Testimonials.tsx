@@ -23,21 +23,21 @@ export default function Testimonials() {
           <Quote className="mx-auto h-9 w-9 text-primary" aria-hidden="true" />
           <blockquote className="mt-6">
             <p className="text-xl font-medium leading-relaxed text-foreground sm:text-2xl">
-              {""}
+              {"The new website transformed our online presence. We saw a 40% increase in qualified leads within the first month, and the design perfectly captures our brand's energy."}
             </p>
           </blockquote>
           <div className="mt-8 flex flex-col items-center gap-3">
             <img
               src="https://placehold.co/96x96/e2e8f0/475569?text=%20"
-              alt=""
+              alt="Sarah Chen"
               className="h-14 w-14 rounded-full object-cover"
             />
             <div>
               <p className="text-sm font-semibold text-foreground">
-                {""}
+                {"Sarah Chen"}
               </p>
               <p className="text-xs text-muted-foreground">
-                {""}
+                {"Marketing Director, Brightwave Studio"}
               </p>
             </div>
           </div>

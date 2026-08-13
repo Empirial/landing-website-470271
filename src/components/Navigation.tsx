@@ -63,10 +63,10 @@ export default function Navigation() {
               Services
             </a>
             <a
-              href="#contact"
+              href="#testimonials"
               className="text-sm font-medium text-foreground transition-colors hover:text-primary"
             >
-              Contact
+              Testimonials
             </a>
             <a
               href="#hero"
@@ -103,10 +103,10 @@ export default function Navigation() {
                 Services
               </a>
               <a
-                href="#contact"
+                href="#testimonials"
                 className="rounded-md px-3 py-2 text-sm font-medium text-foreground hover:bg-muted"
               >
-                Contact
+                Testimonials
               </a>
               <a
                 href="#hero"
