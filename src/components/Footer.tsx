@@ -9,7 +9,7 @@ export default function Footer() {
             Ready to get started?
           </h2>
           <a
-            href=#hero
+            href="#hero"
             className="shrink-0 rounded-md bg-background px-6 py-3 text-sm font-semibold text-foreground transition-opacity hover:opacity-90"
           >
             Home
