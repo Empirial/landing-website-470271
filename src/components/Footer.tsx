@@ -9,10 +9,10 @@ export default function Footer() {
             Ready to get started?
           </h2>
           <a
-            href=#about
+            href={`#services`}
             className="shrink-0 rounded-md bg-background px-6 py-3 text-sm font-semibold text-foreground transition-opacity hover:opacity-90"
           >
-            About
+            Services
           </a>
         </div>
       </div>
@@ -36,18 +36,18 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href=#services
+                    href={`#contact`}
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    Services
+                    Contact
                   </a>
                 </li>
                 <li>
                   <a
-                    href=#contact
+                    href={`#about`}
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    Contact
+                    About
                   </a>
                 </li>
               </ul>
