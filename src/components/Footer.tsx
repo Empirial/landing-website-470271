@@ -9,10 +9,10 @@ export default function Footer() {
             Ready to get started?
           </h2>
           <a
-            href={`#services`}
+            href={`#about`}
             className="shrink-0 rounded-md bg-background px-6 py-3 text-sm font-semibold text-foreground transition-opacity hover:opacity-90"
           >
-            Services
+            About
           </a>
         </div>
       </div>
@@ -21,7 +21,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 gap-10 sm:grid-cols-3">
           <div>
             <span className="text-xl font-bold tracking-tight">
-              the company
+              BlueRed Studio
             </span>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
               Your trusted partner for innovative digital solutions.
@@ -36,18 +36,18 @@ export default function Footer() {
               <ul className="space-y-3">
                 <li>
                   <a
-                    href={`#contact`}
+                    href={`#services`}
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    Contact
+                    Services
                   </a>
                 </li>
                 <li>
                   <a
-                    href={`#about`}
+                    href={`#contact`}
                     className="text-sm text-muted-foreground transition-colors hover:text-foreground"
                   >
-                    About
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -62,10 +62,10 @@ export default function Footer() {
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
                 <Mail className="mt-0.5 h-4 w-4 shrink-0" aria-hidden="true" />
                 <a
-                  href={`mailto:hello@thecompany.com`}
+                  href={`mailto:hello@blueredstudio.com`}
                   className="transition-colors hover:text-foreground"
                 >
-                  hello@thecompany.com
+                  hello@blueredstudio.com
                 </a>
               </li>
               <li className="flex items-start gap-2 text-sm text-muted-foreground">
@@ -87,7 +87,7 @@ export default function Footer() {
 
         <div className="mt-12 border-t border-border pt-6">
           <p className="text-sm text-muted-foreground">
-            © 2026 the company. All rights reserved.
+            © 2026 BlueRed Studio. All rights reserved.
           </p>
         </div>
       </div>
